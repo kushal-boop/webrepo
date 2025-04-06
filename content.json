@@ -1,0 +1,111 @@
+{
+    "personalInfo": {
+      "name": "Kushal Ghimire",
+      "title": "Security Analyst",
+      "headline": "Highly motivated and detail-oriented IT professional [cite: 1]<br>Proven experience in security monitoring, incident response, and vulnerability testing [cite: 1]",
+      "bio": "Proven ability to proactively identify and mitigate security threats, conduct risk assessments, and ensure compliance with industry standards[cite: 2]. Adept at collaborating with technical and non-technical teams to achieve organizational security objectives[cite: 3]. Eager to contribute expertise and continuous learning mindset.",
+      "profileImage": "images/placeholder-profile-kushal.jpg", // Assumes image is in an 'images' folder
+      "signatureText": "Kushal_Ghimire:~$ ",
+      "primaryButton": { "text": "View LinkedIn Profile", "link": "https://www.linkedin.com/in/kush7086/" }, // Updated LinkedIn Link
+      "contact": [
+        { "type": "Phone", "value": "+61 466 042 357", "icon": "phone" }, // From Resume [cite: 1]
+        { "type": "Email", "value": "kghimire687@gmail.com", "icon": "email" }, // From Resume [cite: 1]
+        { "type": "Location", "value": "Balaclava, Victoria", "icon": "location" } // From Resume [cite: 1]
+      ]
+    },
+    "navigation": [
+      { "text": "About", "href": "#about" },
+      { "text": "Experience", "href": "#experience" },
+      { "text": "Education & Certs", "href": "#education" }, // Combined section
+      { "text": "Skills", "href": "#skills" }, // Renamed from Expertise
+      { "text": "Projects", "href": "#projects" },
+      //{ "text": "Blog", "href": "#blog" }, // Keep or remove based on preference
+      //{ "text": "Testimonials", "href": "#testimonials" }, // Keep or remove based on preference
+      { "text": "Contact", "href": "#contact" }
+    ],
+     "experience": [ // From Resume [cite: 5, 16, 19]
+      {
+        "title": "Computer Network and Systems Engineer",
+        "institution": "Rathbone Wine Group, Port Melbourne, VIC",
+        "dates": "June 2022 - Present",
+        "description": "Elevate security posture by proactively identifying and mitigating threats, implementing advanced security controls, and ensuring the Confidentiality, Integrity, and Availability of IT infrastructure[cite: 5]. Provide comprehensive technical support, ensuring swift resolution of IT issues[cite: 6]. Proactively identify and resolve performance bottlenecks[cite: 7]. Improve operational efficiency by automating repetitive tasks[cite: 8]. Implement and enforce MFA and strengthen endpoint security[cite: 9]. Collaborate with stakeholders on security controls and awareness initiatives[cite: 10, 13]. Proactively monitor and respond to security alerts and incidents[cite: 15]."
+      },
+       {
+        "title": "Cybersecurity Analyst Intern",
+        "institution": "Reesby IoT Recruitment, Melbourne, VIC",
+        "dates": "Oct 2021 - June 2022",
+        "description": "Supported the development and maintenance of a robust Information Security Management System (ISMS)[cite: 16]. Gained practical experience in implementing and monitoring security policies, conducting risk assessments and vulnerability scans, and contributing to incident response procedures[cite: 17]. Investigated and responded to security incidents, gaining experience in threat assessment, containment, and eradication techniques[cite: 18]."
+      },
+      {
+        "title": "IT Support Technician/Helpdesk",
+        "institution": "City Mobiles and PC, Bharatpur, Nepal",
+        "dates": "July 2018 - Mar 2019",
+        "description": "Provided comprehensive technical support to stakeholders in a fast-paced environment, demonstrating strong problem-solving and communication skills[cite: 19]."
+      }
+    ],
+    "educationAndCerts": [ // From Resume [cite: 1, 20]
+       { "title": "Master's of Computer Systems Networking (Major: Cyber Security)", "dates": "Nov 2019 - Jul 2021", "institution": "Melbourne Institute of Technology, Melbourne, VIC" }, // [cite: 20]
+       { "title": "SOC Level 1", "dates": "Certification", "institution": "Certification Body" }, // [cite: 1] Add specific body if known
+       { "title": "CompTIA Pentest+", "dates": "Certification", "institution": "CompTIA" }, // [cite: 1]
+       { "title": "CCNA", "dates": "Certification", "institution": "Cisco" }, // [cite: 1]
+       { "title": "IBM Cyber Security Analyst", "dates": "Certification", "institution": "IBM" }, // [cite: 1]
+       { "title": "CompTIA Security+", "dates": "Certification", "institution": "CompTIA" } // [cite: 1]
+       // Add Bachelor's Degree if desired, it wasn't explicitly detailed in the Master's section of the provided resume.
+    ],
+    "skills": { // Renamed from Expertise, populated from Core Skills & Additional Skills [cite: 1, 22]
+        "sectionTitle": "Core Skills & Technical Expertise",
+        "sectionSubtitle": "Key competencies and technical proficiencies demonstrated throughout my career.",
+        "coreSkills": [ // From Resume Core Skills [cite: 1]
+            "Security monitoring", "Incident response", "Vulnerability testing",
+            "Risk analysis & Management", "Compliance assessment", "Root cause analysis",
+            "Vendor management", "Team collaboration", "Communication skills",
+            "Creative problem-solving", "Analytical skills", "Continuous improvement",
+            "Attention to detail", "Leadership"
+        ],
+        "technicalExpertise": { // From Resume Additional Skills [cite: 22]
+            "Security Monitoring & Response": ["Incident response", "Threat management", "DLP/UEBA (Darktrace)", "Endpoint security (Sophos XDR, Microsoft Defender)", "SIEM (Splunk, Wazuh, Microsoft Sentinel)"],
+            "Threat Hunting & Analysis": ["Threat hunting tools (Yara, Sysmon, OSquery)", "Threat intelligence platforms (VirusTotal, Cisco Talos, MISP)", "Malware analysis (Cuckoo Sandbox, Any Run)", "Cape malware analysis"],
+            "Vulnerability & Penetration Testing": ["Vulnerability assessment scanners (Nmap, Tenable Nessus, Burp Suite, Qualys)", "Pentesting tools (Metasploit)", "CompTIA Pentest+"],
+            "Networking & Infrastructure": ["Network security monitoring (Wireshark, TShark, Snort)", "Network segmentation", "CCNA", "AD, DNS, DHCP", "Cloud security"],
+            "Compliance & Frameworks": ["ISO 27001", "NIST CSF", "MITRE ATT&CK", "PCI DSS", "HIPAA", "GDPR", "Essential 8 ML3"],
+            "Automation & Scripting": ["Python", "PowerShell", "Bash", "SQL", "JavaScript", "Perl"],
+            "OSINT": ["Maltego", "Shodan", "Censys", "Wigle"]
+        },
+         "homeLab": [ // From Resume Home Lab Setup [cite: 1]
+            "AD, DNS and DHCP", "Elastic stack (log management, visualization, analytics)",
+            "Wazuh and Splunk SIEM", "Snort IPS/IDS"
+         ]
+    },
+    "projects": { // Keep existing structure, update if needed from resume/portfolio
+        "sectionTitle": "Projects & Home Lab",
+        "sectionSubtitle": "Demonstrating practical application of cybersecurity skills.",
+         "items": [
+            {
+                "title": "Home Lab Environment", "status": "ongoing",
+                "description": "Managed environment including Active Directory (AD), DNS, DHCP, Elastic Stack for log management, Wazuh and Splunk SIEM implementations, and Snort IPS/IDS for network monitoring and threat detection[cite: 1].",
+                "tags": ["AD", "DNS", "Elastic Stack", "Wazuh", "Splunk", "Snort", "SIEM", "IDS/IPS", "Networking"], "link": null
+            }
+            // Add other specific projects if you have them documented
+        ]
+    },
+    // Keep Blog and Testimonials sections if desired, or remove if not applicable
+     "blog": {
+         "sectionTitle": "Insights & Articles",
+         "sectionSubtitle": "Sharing thoughts, tutorials, and findings on various cybersecurity topics and trends.",
+         "items": [ ] // Populate with actual blog posts if available
+     },
+     "testimonials": {
+         "sectionTitle": "Testimonials",
+         "sectionSubtitle": "Feedback from colleagues and supervisors.",
+         "items": [ ] // Populate with actual testimonials if available
+     },
+    "contactInfo": { // From Resume [cite: 1]
+        "introText": "Interested in collaborating or discussing cybersecurity? Feel free to reach out.",
+        "location": "Balaclava, Victoria",
+        "email": "kghimire687@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/kush7086/" // Added LinkedIn
+    },
+    "footer": {
+        "poweredByText": "© 2025 Kushal Ghimire" // Updated year
+    }
+  }
